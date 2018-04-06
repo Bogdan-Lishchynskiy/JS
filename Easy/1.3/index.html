@@ -1,0 +1,22 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function avrg(valueAvrg) {
+            let count = valueAvrg.length;
+            valueAvrg = valueAvrg.reduce((previous, current) => current += previous);
+            valueAvrg /= count;
+            console.log(valueAvrg);
+        }
+        avrg([2, 563, 3]);
+    </script>
+</body>
+
+</html>
