@@ -1,14 +1,4 @@
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-
-<body>
-    <script>
         function reverseNum(num) {
             let str = num.toString();
             console.log(typeof (str))
@@ -18,7 +8,3 @@
             console.log(reverseNumber);
         }
         reverseNum(123456789);
-    </script>
-</body>
-
-</html>

@@ -1,14 +1,4 @@
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-
-<body>
-    <script>
         function firstLetbig(word) {
             let arr = word.split(' ');
             let tranformArr = arr.map(function (num) {
@@ -18,7 +8,3 @@
 
         }
         console.log(firstLetbig('the quick brown fox'));
-    </script>
-</body>
-
-</html>
